@@ -277,7 +277,8 @@ namespace MQTTnet.Rx.Modbus
         /// </summary>
         /// <param name="value">The object to serialize.</param>
         /// <returns>A JSON string representation of the object.</returns>
-        public static string Serialize(this object? value) => JsonConvert.SerializeObject(value);
+        public static string Serialize(this object? value) =>
+            JsonConvert.SerializeObject(value);
 
         /// <summary>
         /// Deserializes the JSON to the specified .NET type.
@@ -287,6 +288,7 @@ namespace MQTTnet.Rx.Modbus
         /// <returns>
         /// The deserialized object from the JSON string.
         /// </returns>
-        public static T? DeSerialize<T>(this string value) => JsonConvert.DeserializeObject<T>(value);
+        public static T? DeSerialize<T>(this string value) =>
+            JsonConvert.DeserializeObject<T>(value);
     }
 }

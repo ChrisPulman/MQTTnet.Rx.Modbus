@@ -7,9 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ModbusRx" Version="0.7.0" />
+    <PackageReference Include="ModbusRx" Version="0.8.0" />
     <PackageReference Include="MQTTnet.Rx.Client" Version="0.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
   </ItemGroup>
 
 </Project>
