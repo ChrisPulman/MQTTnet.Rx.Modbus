@@ -9,3 +9,4 @@
 # MQTTnet.Rx.Modbus
 A Reactive Modbus for MQTTnet Broker
 
+This repo has moved to https://github.com/ChrisPulman/MQTTnet.Rx
